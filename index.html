@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL MIRANDA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>HOTEL MIRANDA</h1>
+        <nav>
+            <ul>
+                <li><a href="#welcome">Bienvenida</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#rooms">Habitaciones</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="welcome">
+        <h2>Bienvenidos al HOTEL MIRANDA</h2>
+        <p>Disfruta de una estancia inolvidable con nosotros.</p>
+    </section>
+
+    <section id="services">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Netflix</li>
+            <li>Agua caliente</li>
+            <li>Internet</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Galería</h2>
+        <div class="gallery-container">
+            <img src="image1.jpg" alt="Imagen 1">
+            <img src="image2.jpg" alt="Imagen 2">
+            <img src="image3.jpg" alt="Imagen 3">
+        </div>
+    </section>
+
+    <section id="rooms">
+        <h2>Habitaciones</h2>
+        <div class="room">
+            <h3>Habitación Simple</h3>
+            <p>Tiene cama de 2 plazas con su televisor smart TV y su baño privado.</p>
+        </div>
+        <div class="room">
+            <h3>Habitación Doble</h3>
+            <p>Tiene 2 camas, una de 2 plazas y la otra de media plaza, con su televisor smart TV y un baño privado. La habitación cuenta con una gran vista al exterior.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form id="contact-form" action="https://formsubmit.co/maicolsemuel@gmail.com" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 HOTEL MIRANDA</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
